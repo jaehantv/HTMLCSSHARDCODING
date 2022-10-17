@@ -6,5 +6,11 @@
 <p>저는 주로 HTML/CSS 웹을 잘 합니다.</p>
 <p>잘 부탁드리겠습니다.</p>
 <p>주요 개발 사례</p>
-<a href = "https://jaehantv.github.io/HTMLCSSHARDCODING/><p>GitHub 사이트</p></a>
-<a href = "https://jaehantv.netlify.app/><p>Netlify 사이트</p></a>
+<li>
+<p>GitHub 사이트</p>
+<a href = "https://jaehantv.github.io/HTMLCSSHARDCODING/></a>
+</li>
+<li>
+<p>Netlify 사이트</p>
+<a href = "https://jaehantv.netlify.app/></a>
+</li>
