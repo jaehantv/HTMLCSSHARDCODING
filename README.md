@@ -4,7 +4,7 @@
 </h3>하면서 발생한 파일을 저장하는 장소입니다.</h3>
 <p>저의 주요 개발 언어는 C#, 파이썬, 자바스크립트, PHP 이며</p>
 <p>저는 주로 HTML/CSS 웹을 잘 합니다.</p>
-<p>앞으로도 잘 부탁드리겠습니다</p>
+<p>잘 부탁드리겠습니다.</p>
 <p>주요 개발 사례</p>
 <a href = "https://jaehantv.github.io/HTMLCSSHARDCODING/>GitHub 사이트</a>
 <a href = "https://jaehantv.netlify.app/>Netlify 사이트</a>
