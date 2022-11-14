@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function account(owner, code, balance){
-        this.owner = owner;
-        this.code = code;
-        this.balance = balance;
-        }
+        function account(owner, code, balance) {
+            this.owner = owner
+            this.code = code
+            this.balance = balance}
         this.inquiry = function () {
             return this.balance;
         }
         this.deposit = function (money) {
             this.balance += money;
+            return money;
         }
         this.withdraw = function (money) {
             this.balance -= money;
@@ -28,8 +28,7 @@
     <h3>Account Prototype 만들기</h3>
     <hr>
     <script>
-        var account = new account("홍길동", "1111-11", 99990009909009)
-        var account2 = new account("이순신", "2222-22", 4000000000000)
+        var account = new account("홍길동", "1111-11", 999900099090090)
         document.write('Account:' + account.owner + ',' + account.code + ',' + account.balance + '<br>');
         account.deposit(1000000);
         document.write('잔액 : ' + account.inquiry() + '<br>');
