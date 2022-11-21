@@ -9,18 +9,34 @@
         var account = {
             account: owner = "홍길동",
             account: code = "1111-11",
-            account: balance = "50000000",
+            account: balance = 5000000,
             inquiry: function () {
-                return this.balance
+                return this.balance;
             },
             deposit: function (money) {
-                this.balance += money
+                this.balance += money;
             },
             withdraw: function (money) {
-                this.balance -= money
+                this.balance -= money;
                 return money;
             }
-        }
+        };
+
+        var account2 = {
+            account2: owner = "이순신",
+            account2: code = "2222-22",
+            account2: balance = 4000000,
+            inquiry: function () {
+                return this.balance;
+            },
+            deposit: function (money) {
+                this.balance += money;
+            },
+            withdraw: function (money) {
+                this.balance -= money;
+                return money;
+            }
+        };
     </script>
 </head>
 
@@ -30,9 +46,15 @@
     <script>
         document.write('Account:' + account.owner + ',' + account.code + ',' + account.balance + '<br>');
         account.deposit(1000000);
-        document.write('잔액 : ' + account.inquiry() + '<br>');
+        document.write('1,000,000원 입금 후 잔액 : ' + account.inquiry() + '<br>');
         account.withdraw(500000);
-        document.write('잔액 : ' + account.inquiry() + '<br>');
+        document.write('500,000원 출금 후 잔액 : ' + account.inquiry() + '<br>');
+
+        document.write('Account:' + account2.owner + ',' + account2.code + ',' + account2.balance + '<br>');
+        account2.deposit(500000);
+        document.write('500,000원 입금 후 잔액 : ' + account2.inquiry() + '<br>');
+        account2.withdraw(300000);
+        document.write('300,000원 출금 후 잔액 : ' + account2.inquiry() + '<br>');
     </script>
 </body>
 

@@ -6,16 +6,31 @@
     <title>Document</title>
     <script>
         function account(owner, code, balance) {
-            this.owner = owner
-            this.code = code
-            this.balance = balance
+            this.owner = owner;
+            this.code = code;
+            this.balance = balance;
         }
         this.inquiry = function () {
             return this.balance;
         }
         this.deposit = function (money) {
             this.balance += money;
+        }
+        this.withdraw = function (money) {
+            this.balance -= money;
             return money;
+        }
+
+        function account2(owner, code, balance) {
+            this.owner = owner;
+            this.code = code;
+            this.balance = balance;
+        }
+        this.inquiry = function () {
+            return this.balance;
+        }
+        this.deposit = function (money) {
+            this.balance += money;
         }
         this.withdraw = function (money) {
             this.balance -= money;
@@ -27,12 +42,19 @@
     <h3>Account Prototype 만들기</h3>
     <hr>
     <script>
-        var account = new account("홍길동", "1111-11", 999900099090090);
+        var account = new account("홍길동", "1111-11", 50000000);
         document.write('Account:' + account.owner + ',' + account.code + ',' + account.balance + '<br>');
         account.deposit(1000000);
-        document.write('잔액 : ' + account.inquiry() + '<br>');
+        document.write('100만원 입금 후 잔액 : ' + account.inquiry() + '<br>');
         account.withdraw(500000);
-        document.write('잔액 : ' + account.inquiry() + '<br>');
+        document.write('50만원 인출 후 잔액 : ' + account.inquiry() + '<br>');
+
+        var account2 = new account2("이순신", "2222-22", 40000000);
+        document.write('Account:' + account2.owner + ',' + account2.code + ',' + account2.balance + '<br>');
+        account.deposit(500000);
+        document.write('50만원 입금 후 잔액 : ' + account2.inquiry() + '<br>');
+        account.withdraw(300000);
+        document.write('30만원 인출 후 잔액 : ' + account2.inquiry() + '<br>');
     </script>
 </body>
 </html>
