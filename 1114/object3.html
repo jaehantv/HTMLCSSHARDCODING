@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프로토타입으로 객체 만들기</title>
+    <title>Document</title>
     <script>
-        function account(owner, code, balance) {
-            this.owner = owner;
-            this.code = code;
-            this.balance = balance;
-        }
+        function account(owner, code, balance){
+        this.owner = owner;
+        this.code = code;
+        this.balance = balance;
         this.inquiry = function () {
-            return this.balance;
+            return this.balance
         }
         this.deposit = function (money) {
             this.balance += money;
@@ -20,14 +20,13 @@
             this.balance -= money;
             return money;
         }
-
-        function account2(owner, code, balance) {
-            this.owner = owner;
-            this.code = code;
-            this.balance = balance;
-        }
+    }
+    function account2(owner, code, balance){
+        this.owner = owner;
+        this.code = code;
+        this.balance = balance;
         this.inquiry = function () {
-            return this.balance;
+            return this.balance
         }
         this.deposit = function (money) {
             this.balance += money;
@@ -36,25 +35,28 @@
             this.balance -= money;
             return money;
         }
+    }
     </script>
 </head>
+
 <body>
     <h3>Account Prototype 만들기</h3>
     <hr>
     <script>
-        var account = new account("홍길동", "1111-11", 50000000);
+        var account = new account("홍길동", "1111-11", 4000000000)      
         document.write('Account:' + account.owner + ',' + account.code + ',' + account.balance + '<br>');
         account.deposit(1000000);
-        document.write('100만원 입금 후 잔액 : ' + account.inquiry() + '<br>');
+        document.write('잔액 : ' + account.inquiry() + '<br>');
         account.withdraw(500000);
-        document.write('50만원 인출 후 잔액 : ' + account.inquiry() + '<br>');
+        document.write('잔액 : ' + account.inquiry() + '<br>');
 
-        var account2 = new account2("이순신", "2222-22", 40000000);
+        var account2 = new account2("이순신", "2222-22", 4000000000)
         document.write('Account:' + account2.owner + ',' + account2.code + ',' + account2.balance + '<br>');
-        account.deposit(500000);
-        document.write('50만원 입금 후 잔액 : ' + account2.inquiry() + '<br>');
-        account.withdraw(300000);
-        document.write('30만원 인출 후 잔액 : ' + account2.inquiry() + '<br>');
+        account2.deposit(1000000);
+        document.write('잔액 : ' + account2.inquiry() + '<br>');
+        account2.withdraw(500000);
+        document.write('잔액 : ' + account2.inquiry() + '<br>');
     </script>
 </body>
+
 </html>
