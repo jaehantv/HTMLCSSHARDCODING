@@ -44,9 +44,9 @@ nodejs 프로젝트는 디렉토리 하나 만들고 여기에 package.json 파�
 src 디렉토리와 소스 파일 만들기
 >mkdir -p src/utils
 >touch src/index.ts src/utils/makePerson.ts</p>
-<li>
 <hr>
 <h3>GitHub 및 Netlify 사이트</h3>
+<li>
 <a href = "https://jaehantv.github.io/HtmlHardCoding/">GitHub 사이트</a>
 </li>
 <li>
