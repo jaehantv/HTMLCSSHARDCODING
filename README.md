@@ -45,6 +45,8 @@ src 디렉토리와 소스 파일 만들기
 >mkdir -p src/utils
 >touch src/index.ts src/utils/makePerson.ts</p>
 <li>
+<hr>
+<h3>GitHub 및 Netlify 사이트</h3>
 <a href = "https://jaehantv.github.io/HtmlHardCoding/">GitHub 사이트</a>
 </li>
 <li>
