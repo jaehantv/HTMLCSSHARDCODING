@@ -7,7 +7,7 @@
 <p>잘 부탁드리겠습니다.</p>
 <p>주요 개발 사례</p>
 <li>
-<a href = "https://jaehantv.github.io/HTMLCSSHARDCODING/">GitHub 사이트</a>
+<a href = "https://jaehantv.github.io/HtmlHardCoding/">GitHub 사이트</a>
 </li>
 <li>
 <a href = "https://jaehantv.netlify.app/">Netlify 사이트</a>
