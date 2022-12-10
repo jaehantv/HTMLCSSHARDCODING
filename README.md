@@ -2,10 +2,48 @@
 <h2> 이 서버는 부산경상대학교 컴퓨터정보융합과 과정인</h2>
 <h3>1학년 2학기 스크립트언어 수업을</h3>
 </h3>하면서 발생한 파일을 저장하는 장소입니다.</h3>
-<p>저의 주요 개발 언어는 C#, 파이썬, 자바스크립트, PHP 이며</p>
-<p>저는 주로 HTML/CSS 웹을 잘 합니다.</p>
-<p>잘 부탁드리겠습니다.</p>
-<p>주요 개발 사례</p>
+<hr>
+<h3>09월 19일 수업 기록</h3>
+<p>tip : emmet, snippet, jsdoc
+
+https://opentutorials.org/course/1
+https://www.w3schools.com/
+http://www.csszengarden.com/
+
+모던 JavaScript 튜토리얼
+https://ko.javascript.info/ 
+
+2009 - ES5 
+2015 - ES6
+
+트랜스파일 - 바벨, 트랜스컴파일러, ES5, ts -> js
+
+타입스크립트는 nodejs 프로젝트는 만든 다음, 개발언어를 타입스크립트로 설정하는 방식으로 진행
+nodejs 프로젝트는 디렉토리 하나 만들고 여기에 package.json 파일을 만드를 것으로 시작
+
+>mkdir ch02-1
+>cd ch02-1
+>npm init --y
+
+> npm i -D typescript ts-node
+
+나에게는 typescript와 ts-node 패키지가 설치되어 있지만 다른 개발자의 컴퓨터에는 설치되어 있지 않을 수 있기 때문에 
+
+>npm i -D typescript ts-node
+
+타입스크립트 라이브러리 혹은 패키지 설치
+
+>npm i -D @types/node
+
+================================================================================================
+
+타입스크립트 프로젝트는 타입스크립트 컴파일러의 설정 파일인 tsconfig.json 파일이 있어야 합니다.
+
+>tsc --init
+
+src 디렉토리와 소스 파일 만들기
+>mkdir -p src/utils
+>touch src/index.ts src/utils/makePerson.ts</p>
 <li>
 <a href = "https://jaehantv.github.io/HtmlHardCoding/">GitHub 사이트</a>
 </li>
