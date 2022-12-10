@@ -1,3 +1,3 @@
-# HTMLCSSHARDCODING
-<h2> html5/css3 GITHUB 페이지 사용방법</h2>
-<h3> 이 페이지
+# HTMLCSSHARDCODING 사이트 입니다.
+<h2> 이 페이지를 스크립트언어 수업 중 발생한 파일을</h2>
+<h3> 저장하는 곳 입니다.</h3>
