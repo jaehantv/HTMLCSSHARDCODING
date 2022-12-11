@@ -5,8 +5,6 @@
 <hr>
 <h4>타입스크립트 수업내용</h4>
 <p>tip : emmet, snippet, jsdoc<br>
-2009 - ES5 
-2015 - ES6
 
 트랜스파일 - 바벨, 트랜스컴파일러, ES5, ts -> js
 
@@ -36,6 +34,9 @@ src 디렉토리와 소스 파일 만들기
 >touch src/index.ts src/utils/makePerson.ts</p>
 <hr>
 <h3>자바스크립트 수업내용</h3>
+<h4>역사</h4>
+<p>2009 - ES5 
+2015 - ES6</p>
 <h4>개발</h4>
 <p>1995년 넷스케이프가 개발되었으며 NetScape Navigator 2.0 브라우저에 최초 탑재되었고, 웹 프로그래밍 개념이 창시되었다.</p>
 <h4>JavaScript 객체 구성</h4>
