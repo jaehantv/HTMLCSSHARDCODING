@@ -4,16 +4,7 @@
 </h3>하면서 발생한 파일을 저장하는 장소입니다.</h3>
 <h4>아래는 수업 기록 내용 입니다.</h4>
 <hr>
-<h3>09월 19일 수업 기록</h3>
 <p>tip : emmet, snippet, jsdoc
-
-https://opentutorials.org/course/1
-https://www.w3schools.com/
-http://www.csszengarden.com/
-
-모던 JavaScript 튜토리얼
-https://ko.javascript.info/ 
-
 2009 - ES5 
 2015 - ES6
 
@@ -43,6 +34,13 @@ nodejs 프로젝트는 디렉토리 하나 만들고 여기에 package.json 파�
 src 디렉토리와 소스 파일 만들기
 >mkdir -p src/utils
 >touch src/index.ts src/utils/makePerson.ts</p>
+<hr>
+<h3>참고 사이트</h3>
+https://developer.mozilla.org/
+https://opentutorials.org/course/1
+https://www.w3schools.com/
+http://www.csszengarden.com/
+https://ko.javascript.info/ 
 <hr>
 <h3>GitHub 및 Netlify 사이트</h3>
 <li>
