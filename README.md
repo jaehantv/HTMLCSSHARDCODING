@@ -35,6 +35,12 @@ src 디렉토리와 소스 파일 만들기
 >mkdir -p src/utils
 >touch src/index.ts src/utils/makePerson.ts</p>
 <hr>
+<h3>자바스크립트 수업내용</h3>
+<h4>개발</h4>
+<p>1995년 넷스케이프가 개발되었으며 NetScape Navigator 2.0 브라우저에 최초 탑재되었고, 웹 프로그래밍 개념이 창시되었다.</p>
+<h4>JavaScript 객체 구성</h4>
+<p>여러 개의 프로퍼티(property)와 메소트로 구성<p>
+<hr>
 <h3>참고 사이트</h3>
 https://developer.mozilla.org/ <br>
 https://opentutorials.org/course/1 <br>
