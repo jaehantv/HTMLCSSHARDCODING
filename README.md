@@ -36,11 +36,11 @@ src 디렉토리와 소스 파일 만들기
 >touch src/index.ts src/utils/makePerson.ts</p>
 <hr>
 <h3>참고 사이트</h3>
-https://developer.mozilla.org/
-https://opentutorials.org/course/1
-https://www.w3schools.com/
-http://www.csszengarden.com/
-https://ko.javascript.info/ 
+https://developer.mozilla.org/ <br>
+https://opentutorials.org/course/1 <br>
+https://www.w3schools.com/ <br>
+http://www.csszengarden.com/ <br>
+https://ko.javascript.info/ <br>
 <hr>
 <h3>GitHub 및 Netlify 사이트</h3>
 <li>
